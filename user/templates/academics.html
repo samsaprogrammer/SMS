@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academics</title>
+    <style>
+        .img-hover:hover{
+transform: scale(1.04);
+box-shadow: 2px 2px 15px gray;
+transition: all 0.5s ease;
+
+
+    }
+    
+    </style>
+</head>
+<body>
+    {%extends 'parent.html'%}
+    {%load static%}
+    
+    {%block text%}
+    <span class="text-white" style="font-size: 11px;">  /  ACADEMICS </span>
+    <h2 class="text-light">Academics</h2>
+    <hr style="opacity: 1;height:1vh; width: 11vw; background-color: #346fd4;" class="border-0">
+    {%endblock%}
+    
+    {%block body%}
+    <!-- academics  start  -->
+    
+    <div class="row my-5">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-5">
+            <p>The school applies the pedagogy of ‘Engaging the Learner’ and an ‘Interdisciplinary Approach’ to enhance the teaching/ learning experience of the youth. The idea is to move beyond lectures towards the application of engaging activities such as discussions, videos, quizzes, games, and varied online creative resources for enhancing the learning process. Technology is integrated into the teaching/learning process, with every classroom being IT-enabled. An interactive teaching methodology encourages students to be active learners and promotes conceptual understanding and reflective practices.
+                <br><br>
+
+                In the attempt to provide holistic learning, the school facilitates sessions on Life Skills as well as Intrapersonal and Interpersonal Development. Life Skills are the skills that one needs to build a happy and successful life. These provide young adolescents with a set of tools, skills and winning attitudes which can help them to become all that they are capable of becoming. Special Value Education and Life Skill Sessions by trained counselors endow the students with value based learning.</p>
+        </div>
+        <div class="col-sm-3">
+            <img src="{%static 'img/a1.jpg'%}" alt="" class="w-100 my-3 h-75 mx-3 img-hover" style="box-shadow: 0px 8px 8px 0px;">
+        </div>
+        <div class="col-sm-2"></div>
+    </div>    
+    <div class="row py-3">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-3 ">
+            <img src="{%static 'img/a2.jpg'%}" alt="" class="mx-auto h-75 w-100 my-4 img-hover " style="box-shadow: 0px 8px 8px 0px;">
+        </div>
+        <div class="col-sm-5 mx-5">
+            <p>Teachers, the change-makers of tomorrow, are empowered through regular and constant research in the inviting ambience of the school. Endorsing a learning society and inquisitive mindset, teachers are entrusted with the responsibility of transforming the lives of students by listening to their points of view.
+                <br>
+                Our teachers are encouraged to reflect, self-appraise and analyze their own learning styles to empathize with and nurture the development of the same among students. The cultural shift that teachers at Jaipuria experience – from being told what to do to innovate and bring in their own uniqueness – gets deciphered into the classroom and fosters motivation.
+                <br>
+                Teachers are no longer only the mentors but equal participants on stage alongside students. Thus, to ensure sound teaching practices, the candidates are professionally screened before recruitment and undergo a rigorous procedure for selection.</p>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>          
+    <div class="row py-5 ">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-3 ">
+            <img src="{%static 'img/a3.jpg'%}" alt="" class="mx-2 img-hover" style="box-shadow: 0px 8px 8px 0px;">
+        </div>
+        <div class="col-sm-3 ">
+            <img src="{%static 'img/a4.jpg'%}" alt="" class="mx-4 img-hover" style="box-shadow: 0px 8px 8px 0px;">
+        </div>
+        <div class="col-sm-3">
+            <img src="{%static 'img/a5.jpg'%}" alt="" class="mx-5 img-hover" style="box-shadow: 0px 8px 8px 0px;">
+        </div>
+    </div>
+    
+    {%endblock%}
+    
+    
+    <!-- academics end  -->
+        
+    
+    
+    
+    
+</body>
+</html>

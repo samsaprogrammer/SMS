@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Room</title>
+    
+</head>
+<body>
+{%extends 'parent.html'%}
+{%load static%}
+{%block text%}
+                  <span class="text-white">  /  Medical </span>
+         <h2 class="text-light">MEDICAL ROOM</h2>
+         
+         <hr style="opacity: 1;height:1vh; width: 16vw; background-color: #346fd4;" class="border-0">
+         {%endblock%}
+
+{%block body%}
+<div class="row">
+    <div class="col-sm-10 mx-auto my-5">
+        <h2 data-aos="fade-up">MEDICAL ROOM</h2>
+        <br>
+        <p class="fs-5">We have an experienced doctor and a trained nurse to provide necessary first aid to the students in a time of emergency. An annual health check-up including dental and eye check-ups by specialists is a regular feature along with maintaining a medical record of each and every child. Health advisory on prevention of various illnesses like swine flu, dengue, chickenpox, etc. is also a regular feature.</p>
+    </div>
+    
+</div>
+<div class="row bg-light">
+    <div class="col-sm-10 my-2 mx-auto pb-3">
+        <h3 data-aos="fade-up">Please Note:</h3>
+        <br>
+        <p><i class="fa-regular fa-circle-check fs-4 text-danger mx-2"></i>Students will be provided first aid only in the school premises in case of medical problem</p>
+
+        <p><i class="fa-regular fa-circle-check fs-4 text-danger mx-2"></i>In case of chronic diseases, school will only inform the parents telephonically. Parents will be expected to reach school at the earliest.</p>
+        
+        <p><i class="fa-regular fa-circle-check fs-4 text-danger mx-2"></i>Expenses on first aid will be borne by the school. All other expenses in case of hospitalization/ visit to private clinic/ medicine will be borne by the parents.</p>
+    </div>
+</div>
+{%endblock%}
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal's Message</title>
+    <style>
+        .img-hover:hover{
+transform: scale(1.04);
+box-shadow: 2px 2px 15px gray;
+transition: all 0.5s ease;
+
+
+    }
+    
+    </style>
+</head>
+<body>
+    {%extends 'parent.html'%}
+    {%load static%}
+    
+    {%block text%}
+    <span class="text-white" style="font-size: 11px;">  /  PRINCIPAL'S MESSAGE </span>
+    <h2 class="text-light">Principal's Message</h2>
+    <hr style="opacity: 1;height:0.7vh; width: 19vw; background-color: #346fd4;" class="border-0">
+    {%endblock%}
+    
+    {%block body%}
+    <!-- principal start  -->
+    
+    <div class="row my-5">
+        <div class="col-sm-4 my-3">
+            <img src="{%static 'img/p1.jpeg'%}" alt="" style="height:43vh; width: 17vw; margin-left: 210px; " class="shadow p-3 mb-2 bg-white rounded-3 img-hover">
+            <font style="margin-left: 240px;" class="lh-sm text-primary fs-3"><b>Ms. KAMLA PAL</b></font>
+            <font style="margin-left: 230px; font-size: 15px;" class="lh-sm text-secondary"><b>Principal, Seth Anandram Jaipuria</b></font>
+            <font style="margin-left: 320px; font-size: 15px;" class="lh-sm text-secondary"><b>School</b></font>
+            <font style="margin-left: 260px; font-size: 15px;" class="lh-sm text-secondary"><b>Sadhu Campus , Barabanki</b></font>
+        </div>
+        <div class="col-sm-7 my-3">
+            <p>
+                As you explore our offerings, you’ll discover answers to your initial inquiries about our school, academic programs, and student life. Serving as the Principal, I am honored to be part of an educational institution where every stakeholder is a learner, and each day presents an opportunity for discovery. We view ourselves as a community of learners, where teachers, parents, and staff are actively engaged in the learning process.
+                <br><br>
+
+Maintaining high standards, I am committed to understanding and enhancing the educational process. We employ a dual strategy approach—Love and Logic—to create a positive learning environment. Love fosters trusting relationships, ensuring students feel respected and valued, while Logic instills personal responsibility, self-control, decision-making skills, self-confidence, and character-building with high moral values.
+<br><br>
+
+Your child’s learning journey is a collaborative effort between home and school. We believe that a strong partnership enhances your child’s overall experience. Learning is inherently social, and I eagerly anticipate working with you to create a school where parents are always welcome, students engage in meaningful learning, and staff members are valued for their contributions.
+<br><br>
+
+Together, we aim to uphold a standard of excellence, promote a positive learning atmosphere, and foster an environment where everyone can thrive. I look forward to the collective efforts of our entire community as we embark on this educational journey together.
+            </p>
+        </div>
+    </div>
+    
+    {%endblock%}
+    
+    
+    <!-- principal end  -->
+        
+    </body>
+    </html>
+    
+    
+    
+</body>
+</html>

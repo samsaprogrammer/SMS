@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Events</title>
+   
+</head>
+<body>
+{%extends 'parent.html'%}
+{%load static%}
+{%block text%}
+<span class="text-white">  /  News Events </span>
+<h2 class="text-light">News Events</h2>
+
+<hr style="opacity: 1;height:1vh; width: 12vw; background-color: #346fd4;" class="border-0">
+{%endblock%}
+{%block body%}
+<!-- news start -->
+<div class="row small">
+    <div class="col-sm-10 mx-auto p-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card  img-hover"data-aos="flip-left">
+            <img src="{%static 'img/n1.jpeg'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Synopsis of Summer Camp Activities and Closing Ceremony</h5>
+              <p class="card-text">Venue- Seth Anandram Jaipuria School Sadhu Campus Barabanki Time - 8.00am to 12.00pm Summer Camp Activities: Arts and Crafts: Students explored their creativity through various projects, including Art and Craft. These activities helped enhance their artistic skills and provided a platform for self-expression. Sports and Recreation: A range of sports activities, such as basketball, Cone [...]</p>
+              <button class="btn btn-danger">READ MORE</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card  img-hover"data-aos="flip-left">
+            <img src="{%static 'img/n2.jpg'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Watermelon Party for Pre-Primary wing at Seth Anandram Jaipuria School Sadhu Campus Barabanki</h5>
+              <p class="card-text">Seth Anandram jaipuria school Sadhu Campus barabanki recently held a vibrant and exciting Watermelon Party for its young learners, aiming to celebrate summer and introduce the children to healthy eating habits in a fun and engaging way. Event Highlights Welcome and Introduction: The party began with a warm welcome by the teachers, who introduced the [...]</p>
+              <button class="btn btn-danger">READ MORE</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card  img-hover"data-aos="flip-left">
+            <img src="{%static 'img/n3.jpg' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mother’s Day Celebration 2024</h5>
+              <p class="card-text">In the heart of a bustling school campus, a special celebration unfolds to honor the remarkable mothers within the school community. As Mother's Day approaches, students and teachers alike buzz with excitement, eagerly preparing for the festivities ahead.</p>
+              <button class="btn btn-danger">READ MORE</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card  img-hover"data-aos="flip-left">
+            <img src="{%static 'img/n4.jpeg'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Seth Anandram Jaipuria Group of Schools Receives ET Now Best Education Brands of 2024 Award</h5>
+              <p class="card-text">Seth Anandram Jaipuria Group of Schools has been honoured as one of the ET Now Best Education Brands of 2024, a prestigious recognition by The Times Group. This remarkable accolade was received with pride at the felicitation ceremony held in Mumbai, with Dr. Neeta Bali, Director Schools, representing our esteemed institution.
+
+              </p>
+              <button class="btn btn-danger">READ MORE</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card  img-hover"data-aos="flip-left">
+            <img src="{%static 'img/n5.jpeg'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">7th Jaipuria Annual School Leadership Conclave</h5>
+              <p class="card-text">Day 1 of the 7th Jaipuria Annual School Leadership Conclave of Seth Anandram Jaipuria Group of Schools in Varanasi, on January 28, 2024, was a resounding success! With insightful addresses from Chief Guest Prof. Santanu Kumar Swain, Director Schools – Dr. Neeta Bali, Director IT, Research, and HR – Mr. Harish Sanduja, and Ms. Tapasi............................... [...]
+
+              </p>
+              <button class="btn btn-danger">READ MORE</button>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+<!-- news end  -->
+{%endblock%}
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fee Structure</title>
+    
+</head>
+<body>
+{%extends 'parent.html'%}
+{%load static%}
+{%block text%}
+<span class="text-white" style="font-size: 11px;">  /  Fee Structure</span>
+<h2 class="text-light">Fee Structure</h2>
+<hr style="opacity: 1;height:1vh; width: 13vw; background-color: #346fd4;" class="border-0">
+              {%endblock%}
+
+{%block body%}
+
+<div class="row">
+    <div class="col-sm-4 mx-auto my-4">
+        <img src="{%static 'img/fees.jpg'%}" alt="" class="w-100"  data-aos="fade-up">
+        <a href="https://jaipuriaschoolssadhucampusbbk.com/wp-content/uploads/2024/02/Fee-structure-2024-25-Sadhu-Campus-1.pdf" target="_blank"><button class="btn btn-primary rounded-2 fs-5 ms-3 my-4" style="height: 60px;width: 400px;">Download fee structure 2024-2025</button></a>
+    </div>
+</div>
+
+{%endblock%}
+</body>
+</html>

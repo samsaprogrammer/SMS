@@ -1,0 +1,46 @@
+{% extends "adminparent.html" %}
+{% block body %}
+
+<div class="row">
+    <div class="col-sm-12">
+        <h1 style="text-align:center;">Subjects</h1>   
+            <form method="post" class="row">
+                {% csrf_token %}
+                <table class="table text-light w-75 mx-auto">
+                    <tr>
+                        <td>Enter Subject Name</td>
+                        <td><input type="text" name="name" id="" value="{{sub.name}}"></td>
+                    </tr>
+                    <tr>
+                        <td>Enter Class Id</td>
+                        <td><input type="text" name="classid" id="" value="{{sub.classid}}"></td>
+                    </tr>
+                    <tr>
+                        <td>Enter Teacher ID</td>
+                        <td><input type="text" name="teacherid" id="" value="{{sub.teacherid}}"></td>
+                    </tr>
+                    
+                    
+                    
+                   
+                    <tr>
+                        <td>Enter Book Name </td>
+                        <td>
+                            <input type="text" name="book" class="form-control" value="{{sub.book}}">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="submit" class="btn btn-success">Add</button>
+                            
+                            
+                        </td>
+                        
+                    </tr>
+                </table>
+            </form>
+          
+    </div>
+</div>
+
+{% endblock body %}

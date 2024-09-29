@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Management Team</title>
+    <style>
+        .img-hover:hover{
+transform: scale(1.04);
+box-shadow: 2px 2px 15px gray;
+transition: all 0.5s ease;
+
+
+    }
+    
+    </style>
+</head>
+<body>
+    {%extends 'parent.html'%}
+    {%load static%}
+    
+    {%block text%}
+    <span class="text-white" style="font-size: 11px;">  /  SCHOOL MANAGEMENT TEAM </span>
+    <h2 class="text-light">School Management Team</h2>
+    <hr style="opacity: 1;height:0.7vh; width: 26vw; background-color: #346fd4;" class="border-0">
+    {%endblock%}
+    
+    {%block body%}
+    <!-- SMS start  -->
+    <div class="row my-5">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="{%static 'img/f2.jpg'%}" alt="" style="height:43vh; width: 17vw; " class="shadow p-3 mb-2 bg-white rounded-3 mx-3 img-hover">
+                    <h4 style=" margin-left: 42px; color: rgb(11, 11, 224);"><b>Shri Sadhu Ram Ji</b></h4>
+                    <h5 style="margin-left: 100px;"><b>Founder</b></h5>
+                </div>
+                <div class="col-sm-3">
+                    <img src="{%static 'img/f1.jpg'%}" alt="" style="height:43vh; width: 17vw; " class="shadow p-3 mb-2 bg-white rounded-3 mx-3 img-hover">
+                    <h4 style=" margin-left: 42px; color: rgb(11, 11, 224);"><b>Smt. Sushmawati Ji</b></h4>
+                    <h5 style="margin-left: 100px;"><b>Founder</b></h5>
+                </div>
+                <div class="col-sm-3">
+                    <img src="{%static 'img/f3.jpg'%}" alt="" style="height:43vh; width: 17vw; " class="shadow p-3 mb-2 bg-white rounded-3 mx-3 img-hover">
+                    <h4 style=" margin-left: 42px; color: rgb(11, 11, 224);"><b>Er. Ajay Chaudhary</b></h4>
+                    <h5 style="margin-left: 100px;"><b>Chairman</b></h5>
+                </div>
+                <div class="col-sm-3">
+                    <img src="{%static 'img/f4.jpg'%}" alt="" style="height:43vh; width: 17vw; " class="shadow p-3 mb-2 bg-white rounded-3 mx-3 img-hover">
+                    <h4 style=" margin-left: 42px; color: rgb(11, 11, 224);"><b>Ms. Uma Chaudhary</b></h4>
+                    <h5 style="margin-left: 110px;"><b>Director</b></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+   
+
+    {%endblock%}
+    
+    
+    <!-- SMS end  -->
+        
+    </body>
+    </html>
+    
+    
+    
+</body>
+</html>

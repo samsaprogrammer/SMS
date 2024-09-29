@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Prospectus</title>
+    
+</head>
+<body>
+{%extends 'parent.html'%}
+{%load static%}
+
+{%block text%}
+<span class="text-white" style="font-size: 11px;">  /  Download Prospectus </span>
+<h2 class="text-light">Download Prospectus</h2>
+<hr style="opacity: 1;height:1vh; width: 21vw; background-color: #346fd4;" class="border-0">
+              {%endblock%}
+{%block body%}
+<div class="row">
+    <div class="col-sm-10 mx-auto ">
+        
+        <h4 class=" fw-bold mt-5 " data-aos="fade-up">Download Prospectus of Seth Anandram Jaipuria School, Sadhu Campus – Barabanki</h4>
+        <p class="fs-5">The School prospectus contains all relevant and updated information. It consists of a detailed description of the facilities offered, educational methodologies, information about co-curricular activities, and more. The prospectus includes information that is of utmost importance for the to-be students and their guardians. You can download our prospectus which is available in PDF format</p>
+        <div class="row">
+            <div class="col-sm-4 my-5 mx-auto">
+        <form action="" class="border shadow-lg mx-auto " >  
+          <h3 class="text-center mt-5">Download Prospectus</h3>
+          <input type="text"  placeholder="Your name" class="form-control my-4 w-75 mx-auto ">
+           <input type="email" placeholder="Your email" class="form-control my-4 w-75 mx-auto">
+           <input type="number" placeholder="Your number" class="form-control my-4 w-75 mx-auto">
+           <button type="submit" class="btn btn-primary ms-5 mb-5"><a href="../../media/enquiry.pdf" download="enquiry.pdf"></a>Download PDF</button>
+      </form>
+    </div>
+
+    </div>
+    </div>
+</div>
+
+{%endblock%}
+</body>
+</html>

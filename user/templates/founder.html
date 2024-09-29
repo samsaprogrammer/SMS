@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Founder's Message</title>
+</head>
+<style>
+    .img-hover:hover{
+transform: scale(1.04);
+box-shadow: 2px 2px 15px gray;
+transition: all 0.5s ease;
+
+
+    }
+    
+</style>
+<body>
+    {%extends 'parent.html'%}
+    {%load static%}
+    
+    {%block text%}
+             <span class="text-white" style="font-size: 11px;">  /  FOUNDER'S MESSAGE </span>
+    <h2 class="text-light">Founder's Message</h2>
+    <hr style="opacity: 1;height:0.7vh; width: 18vw; background-color: #346fd4;" class="border-0">
+    {%endblock%}
+    
+    {%block body%}
+    <!-- founder start  -->
+    <div class="row py-5">
+        
+        <div class="col-sm-4 py-5">
+            <img src="{%static 'img/f2.jpg'%}" alt="" style="height: 42vh; width: 16vw; margin-left: 205px;" class="shadow-lg p-3 mb-2 bg-white rounded-3 img-hover" >
+            <h4 style="margin-left: 222px; color: rgb(11, 11, 224);"><b>Shri Sadhu Ram ji</b></h4>
+            <h5 style="margin-left: 280px;"><b>Founder</b></h5>
+        </div>
+        
+        <div class="col-sm-4 py-5">
+            <h5 class="fw-bold ">Dear Parents, Guardians and Students,</h5>
+            <p  style="font-size: 18px;">The journey of Seth Anandram Jaipuria School begins with a profound commitment to bridge the gap in educational access and quality that persists in rural areas. Having grown up in a similar environment, I understand first-hand the challenges faced by students who aspire for a modern and English-based education but lack the means to pursue it.
+                <br><br>
+
+                It is this very understanding that has fuelled our mission to establish a school that not only imparts knowledge but also nurtures dreams. Our curriculum is meticulously designed to blend traditional values with contemporary teaching methodologies, ensuring that every student receives a holistic education that prepares them for success in the 21st century.</p>
+        </div>
+        
+        <div class="col-sm-3 py-5">
+            <img src="{%static 'img/f1.jpg'%}" alt="" style="height: 42vh; width: 17vw; margin-left :50px;" class="shadow-lg p-3 mb-2 bg-white rounded-3 img-hover" >
+            <h4 style="margin-left: 70px; color: rgb(11, 11, 224);"><b>Smt. Sushmawati ji</b></h4>
+            <h5 style="margin-left: 140px;"><b>Founder</b></h5>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-9">
+            <p class="pb-5" style="font-size: 18px; color: rgb(0, 0, 0);">At our school, we envision a learning environment where curiosity is encouraged, critical thinking is fostered, and creativity is celebrated. Through interactive classrooms, state-of-the-art facilities, and a dedicated team of educators, we aim to ignite a passion for learning that transcends boundaries and empowers students to realize their full potential.
+                <br><br>
+
+                As we embark on this journey together, I invite you to join us in shaping a future where every child has access to quality education. Together, let us sow the seeds of knowledge, nurture the aspirations of our youth, and build a brighter tomorrow for generations to come.
+                <br><br>
+                Thank you for entrusting us with the education of your children. We look forward to partnering with you in this noble endeavour.</p>
+        </div>
+    </div>
+    {%endblock%}
+    
+    
+    <!-- founder end  -->
+        
+    </body>
+    </html>
+    
+    
+    
+</body>
+</html>

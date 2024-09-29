@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chairman's Message</title>
+    <style>
+        .img-hover:hover{
+transform: scale(1.04);
+box-shadow: 2px 2px 15px gray;
+transition: all 0.5s ease;
+
+
+    }
+    
+    </style>
+</head>
+<body>
+    {%extends 'parent.html'%}
+{%load static%}
+
+{%block text%}
+         <span class="text-white" style="font-size: 12px;">  /  CHAIRMAN'S MESSAGE </span>
+<h2 class="text-light">Chairman's Message</h2>
+<hr style="opacity: 1;height:0.7vh; width: 19vw; background-color: #346fd4;" class="border-0">
+{%endblock%}
+
+{%block body%}
+<!-- Chairman start  -->
+
+<div class="row">
+    <div class="col-sm-4 py-5">
+        <img src="{%static 'img/f3.jpg'%}" alt="" style="height:50vh; width: 18vw; margin-left: 200px;" class="shadow p-3 mb-2 bg-white rounded-3 img-hover">
+        <h4 style="margin-left: 240px; color: rgb(11, 11, 224);"><b>Er. Ajay Chaudhary</b></h4>
+            <font style="margin-left: 295px; font-size: 20px;" class="lh-sm">Chairman</font>
+            <font style="margin-left: 230px; font-size: 20px;" class="lh-sm">Seth Anandram Jaipuria</font>
+            <font style="margin-left: 230px; font-size: 20px;" class="lh-sm">School, Sadhu Campus –</font>
+            <font style="margin-left: 290px; font-size: 20px;" class="lh-sm">Barabanki</font>
+           
+    </div>
+    <div class="col-sm-8 py-5">
+        <h6><b>Dear Students, Parents, and Well-wishers,</b></h6>
+        <p>In education lies the key to unlocking the golden door of freedom.” These profound words of Dr. A.P.J. Abdul Kalam resonate deeply with our mission here at Seth Anandram Jaipuria School. As the chairman of our esteemed institution, I am honored to lead a community dedicated to harnessing the transformative power of education.
+            <br><br>
+
+            We firmly believe that education is not just about imparting knowledge but also empowering individuals to shape their destinies and change the world. In recognizing the pressing need for academic and skill-based learning in our community, we have tailored our curriculum to focus on practical expertise and hands-on experience.
+            <br><br>
+            
+            Our approach goes beyond traditional methods of education; we aim to equip our students with the skills they need to thrive in today’s dynamic and competitive world. In addition, we will instil values and attitudes for learners to lead with confidence.
+            <br><br>
+            
+            Through a combination of innovative teaching methods and real-world applications, we nurture the talents and aspirations of our students. Whether it’s developing academic rigour, mastering technical skills, honing creative talents, or building critical thinking abilities, our school provides a supportive environment where every student can flourish.
+            <br><br>
+            
+            As we forge ahead on this noble path, let us unlock the doors of opportunity and pave the way for a brighter tomorrow through the power of new-age education.</p>
+    </div>
+</div>
+
+
+{%endblock%}
+
+
+<!-- Chairman end  -->
+    
+</body>
+</html>
+
+

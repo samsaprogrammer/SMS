@@ -1,0 +1,35 @@
+{% extends "adminparent.html" %}
+{% block body %}
+    <form method="post" class="row ">
+        {% csrf_token %}
+        <div class="col-sm-12">
+            <h1 style="text-align:center;">Edit Teacher</h1>  
+            <div class="row py-3">
+                <div class="col-sm-6"><input type="text" name="name" value="{{t.name}}" placeholder="Enter name" class="form-control"></div>
+                <div class="col-sm-6"><input type="text" name="phone" value="{{t.phone}}" placeholder="Enter Phone" class="form-control"></div>
+            </div>
+            <div class="row py-3">
+                <div class="col-sm-6"><input type="text" name="email" value="{{t.email}}" placeholder="Enter your Email" class="form-control"></div>
+                <div class="col-sm-6"><input type="text" name="qualification"  value="{{t.qualification}}" placeholder="Enter your qualification" class="form-control"></div>
+            </div>
+            <div class="row py-3">
+                <div class="col-sm-6"><input type="text" name="experience" readonly value="{{t.experience}}" placeholder="Enter your experience" class="form-control"></div>
+                <div class="col-sm-6"><input type="text" name="tclass" value="{{t.tclass}}" placeholder="Enter Teacher's Class" class="form-control"></div>
+            </div>
+            <div class="row py-3">
+                <div class="col-sm-6"><input type="text" name="tsalary" value="{{t.tsalary}}" placeholder="Enter Teacher's Salary" class="form-control"></div>
+                
+            </div>
+            <div class="row py-3">
+                
+                <div class="col-sm-6"><textarea name="address" placeholder="Enter your Address" id="" class="form-control">{{t.address}}</textarea></div>
+            </div> 
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <button type="submit" class="btn btn-success">Update</button>
+                </div>
+            </div>
+              
+        </div>
+    </form>
+{% endblock body %}

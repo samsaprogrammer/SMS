@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transport</title>
+    <style>
+        .img-hover:hover{
+transform: scale(1.04);
+box-shadow: 2px 2px 15px gray;
+transition: all 0.5s ease;
+
+
+    }
+    
+    </style>
+</head>
+<body>
+{%extends 'parent.html'%}
+{%load static%}
+{%block text%}
+                  <span class="text-white">  /  Transport </span>
+         <h2 class="text-light">TRANSPORT</h2>
+         
+         <hr style="opacity: 1;height:1vh; width: 12vw; background-color: #346fd4;" class="border-0">
+         {%endblock%}
+
+{%block body%}
+<div class="row">
+    <div class="col-sm-10 mx-auto my-5 ">
+        <h2 data-aos="fade-up">TRANSPORT</h2>
+        <br>
+        <p class="fs-5">Students can avail the school transport, subject to the availability of seats. The routes of the school buses are framed keeping in mind the needs of the parents and they should consult the school transport-in-charge for details.</p>
+    </div>
+    
+</div>
+<div class="row bg-light">
+    <div class="col-sm-10 my-2 mx-auto" >
+        <h3 data-aos="fade-up">Bus Rules</h3>
+        <br>
+        <p><i class="fa-regular fa-circle-check fs-4 text-danger mx-2"></i>Parents should not try to overtake and stop the school bus to facilitate the boarding of their wards as this endangers the safety of the bus and its occupants. This act will <span class="mx-5">lead to strict disciplinary action.</span></p>
+
+        <p><i class="fa-regular fa-circle-check fs-4 text-danger mx-2"></i>Parents are requested not to board school buses to see off or receive their wards.</p>
+        <p><i class="fa-regular fa-circle-check fs-4 text-danger mx-2"></i>Parents should not argue with the teachers present in the bus or the conductor / driver. If there is any problem, a written communication should be forwarded.</p>
+        <p><i class="fa-regular fa-circle-check fs-4 text-danger mx-2"></i>The students must make sure that the aisle of the bus is clear and school bags/other belongings are placed properly.</p>
+        <p><i class="fa-regular fa-circle-check fs-4 text-danger mx-2"></i>Students should stay away from the main road until the bus arrives.</p>
+
+        <p><i class="fa-regular fa-circle-check fs-4 text-danger mx-2"></i>Parents are requested not to board school buses to see off or receive their wards.</p>
+        <p><i class="fa-regular fa-circle-check fs-4 text-danger mx-2"></i>If any parent whose child is availing school transport service wishes to take their ward privately in his/her own transport, he/she has to collect the Permission Slip from the <span class="mx-5">school authorities half an hour before the end of the last class.</span></p>
+    </div>
+</div>
+<div class="container text-end">
+    <div class="col-sm-12 text-end"><img src="{%static 'img/bus.png'%}" alt="" class="w-25"></div>
+    </div>
+{%endblock%}
+</body>
+</html>
